@@ -10,12 +10,18 @@
 <body>
     <fieldset> 
     <h1>Cadastro Geral</h1>
+
+
 <fieldset>
     <h3> Dados Pessoais</h3>
     <form action="cadastro.html" method="get">
         <label for="nome">Nome Completo: </label><br>
         <input type="text" name="nt" id="nome" required><br><br>
         <label for="profissao">profissão:</label><br>
+
+
+<!-- Comando simples, apenas select-->
+<!--
         <select name="profissao" id="profissao">
             <option value=""> </option>
             <option value="">Professor</option>
@@ -23,6 +29,24 @@
             <option value="">Médico</option>
             <option value="">Padeiro</option>
         </select>
+        <br>
+        <br>-->
+
+
+<!-- comando com complementação automática-->
+        <label for="a">Profissão: </label><br>
+       <input list="a" name="a" id="ab">
+       <datalist id="a"> 
+            <option value="Professor">Professor<br>
+            <option value="Engenheiro">Engenheiro<br>
+            <option value="Médico">Medico<br>
+            <option value="Padeiro">Padeiro <br>
+           
+            </datalist>
+      </select>
+
+
+
 </fieldset>
 
 <br>
@@ -110,17 +134,20 @@
     <br>
 
 </fieldset>
+<br>
+<br>
 
 <fieldset>
     <h3>Comentário</h3>
     <label for="14">Mensagem</label><br><br>
     <textarea name="14" id="14" cols="30" rows="10"></textarea>
 </fieldset>
-
+<br>
+<br>
+<br>
 <input type="submit" value=" Enviar">
 <input type="reset" value="Limpar">
 
-<br>
 </form>
 </body>
 </html>
