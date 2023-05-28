@@ -9,15 +9,56 @@ fieldset{
     padding: 5%;
     margin-top: 5%;
 }
+img{
+    width:60px;
+    height: 60px;
+    margin-top: -60px;
+    left: 13%;
+    border-radius: 100%; 
+    border: 100px; 
+    position:absolute; 
+    border: 5px solid rgb(239, 236, 239);
+}
+
+.img{
+    width:60px;
+    height: 60px;
+    left: 50%;
+    border-radius: 100%; 
+    border: 100px; 
+    position:absolute; 
+    
+}
+
+.img1{
+    width:60px;
+    height: 60px;
+    left: 7%;
+    margin-top: 1%;
+    border-radius: 100%; 
+    border: 100px; 
+    position:absolute;     
+}
+
+
+
+
 .container {
     display: grid;
     /* aqui eu determino é são 2 colunas de tamanhos iguas, cada coluna tem uma fração */
-    grid-template-columns: repeat(2, 6fr);
+    grid-template-columns: repeat(2, 60fr);
     /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
-    grid-auto-rows: 100px;
+    grid-auto-rows: 10px;
     /* espaço entre um elemento interno e outro */
-    grid-gap: 5px 8px;
+    grid-gap: 10px 100px;
     /* margem interna que afasta os elementos da borda do grid */
+    padding: 20px 10px;
+  }
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    grid-auto-rows: 20px;
+    grid-gap: 10px 100px;
     padding: 20px 10px;
   }
 .box{
