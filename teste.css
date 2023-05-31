@@ -59,7 +59,7 @@ img{
     grid-template-columns: repeat(2, 6fr);
     grid-auto-rows: 30px;
     grid-gap: 10px 70px;
-    padding: 20px 13px;
+    padding: 0px 13px;
   }
 .box{
     display:inline-flex;
