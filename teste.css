@@ -12,12 +12,12 @@ fieldset{
 img{
     width:60px;
     height: 60px;
-    margin-top: -60px;
-    left: 13%;
+    margin-top: -80px;
+    left: 14%;
     border-radius: 100%; 
     border: 100px; 
     position:absolute; 
-    border: 5px solid rgb(239, 236, 239);
+    border: 5px solid rgba(255, 0, 0, 0.274);
 }
 
 .img{
@@ -34,7 +34,7 @@ img{
     width:60px;
     height: 60px;
     left: 7%;
-    margin-top: 1%;
+    margin-top: 0%;
     border-radius: 100%; 
     border: 100px; 
     position:absolute;     
@@ -46,20 +46,20 @@ img{
 .container {
     display: grid;
     /* aqui eu determino é são 2 colunas de tamanhos iguas, cada coluna tem uma fração */
-    grid-template-columns: repeat(2, 60fr);
+    grid-template-columns: repeat(2, 200fr);
     /* esssa é a altura das linhas, se vc quiser pode apaga-la caso não queira uma altura definida */
     grid-auto-rows: 10px;
     /* espaço entre um elemento interno e outro */
-    grid-gap: 10px 100px;
+    grid-gap: 10px -12px;
     /* margem interna que afasta os elementos da borda do grid */
     padding: 20px 10px;
   }
   .container1 {
     display: grid;
     grid-template-columns: repeat(2, 6fr);
-    grid-auto-rows: 20px;
-    grid-gap: 10px 100px;
-    padding: 20px 10px;
+    grid-auto-rows: 30px;
+    grid-gap: 10px 70px;
+    padding: 20px 13px;
   }
 .box{
     display:inline-flex;
