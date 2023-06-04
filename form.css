@@ -1,0 +1,14 @@
+h2{
+    font-size: 40px; 
+    color:rgba(248, 41, 145, 0.343);
+    font-family: cursive,sans-serif;
+ }
+ h4{
+     color: rgba(226, 43, 43, 0.534);
+     font-family:cursive,sans-serif;
+ }
+ fieldset{
+     border-color: rgb(255, 0, 119);
+     
+ }
+ 

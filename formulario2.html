@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário externo</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>
+                <h2>Cadastro</h2>
+            </legend>
+
+            <label for="nome">
+                <h4>Nome Completo: </h4>
+            </label>
+            <input type="text" name="nome" id="nome">
+            <label for="e-mail">
+                <h4>E-mail:</h4>
+            </label>
+            <input type="email" name="e-mail" id="e-mail"><br>
+            <label for="idade">
+                <h4>Idade:</h4>
+            </label>
+            <input type="number" name="idade" id="idade"><br>
+            <label for="comentario">
+                <h4>Comentário</h4>
+            </label>
+            <textarea name="" id="" cols="20" rows="6"></textarea><br><br>
+            <input type="submit" value="Enviar">
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
