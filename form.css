@@ -8,7 +8,10 @@ h2{
      font-family:cursive,sans-serif;
  }
  fieldset{
-     border-color: rgb(255, 0, 119);
+     border-color: rgb(255, 0, 119);   
      
  }
- 
+
+body{
+    background-image:url(0efed0_ecf8818f0fac4d2fbfce17ec4dc2958a~mv2.webp);
+}
